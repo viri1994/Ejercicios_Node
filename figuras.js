@@ -1,3 +1,5 @@
+'use strict';
+
 class Figuras{
 	constructor(nombrefig, lado1,lado2,base,altura,radio){  
 		this.nombrefig=nombrefig;
@@ -15,6 +17,8 @@ class Figuras{
 	areaTriangulo(){
 		console.log("El area del tringulo es:", base*altura/2)
 	}
+
+
 }
 
 
